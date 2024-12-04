@@ -16,3 +16,11 @@ steps:
     archiveType: 'zip'
     archiveFile: '$(System.DefaultWorkingDirectory)/$(Build.BuildId).zip'
     replaceExistingArchive: true
+  
+- task: AzureWebApp@1
+  inputs:
+    azureSubscription: 'AspWebDbApp'
+    appType: 'webApp'
+    appName: 'devopswebapp01'
+    package: '$(System.DefaultWorkingDirectory)/*.zip'
+    deploymentMethod: 'auto'
