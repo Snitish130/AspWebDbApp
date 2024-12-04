@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-    <title>Database Connectivity Example</title>
+    <title>Database Connectivity Webapp DevOps Demo</title>
     <style>
         .main_div{
             
