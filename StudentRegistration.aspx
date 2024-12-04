@@ -42,7 +42,7 @@
 
         <!-- div for heading text -->  
         <div class="heading">
-          <asp:Label ID="label1" runat="server" Text="Database Connectivity Example" ></asp:Label>              
+          <asp:Label ID="label1" runat="server" Text="Database Connectivity Webapp DevOps Demo" ></asp:Label>              
          </div>
 
             <table class="myTable">      
